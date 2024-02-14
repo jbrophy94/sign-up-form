@@ -12,5 +12,104 @@
       rel="stylesheet"
     />
   </head>
-  <body></body>
+  <body>
+    <div class="left">
+      <div class="logo-container">
+        <img class="logo" src="imgs/logo.png" alt="The Odin Project Logo" />
+        <h1 class="odin">ODIN</h1>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="description">
+        <p>
+          We love palm leaves! You know you want to decorate your luau party
+          with <em><strong>REAL</strong></em> palm leaves! Sign up today! We
+          only pluck the best palm leaves and we are so excited to share them
+          with you! For a limited time only, sign up today! <br /><br />You know
+          you want to!
+        </p>
+      </div>
+      <div class="form-container">
+        <h3 class="form-header">Let's do this!</h3>
+      </div>
+      <form action="get">
+        <div class="form-row">
+          <div class="input-combo">
+            <label for="first-name">First Name</label>
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder=" your first name"
+              required
+            />
+          </div>
+          <div class="input-combo">
+            <label for="last-name">Last Name</label>
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder=" your last name"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="input-combo">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder=" your email address"
+              required
+            />
+          </div>
+          <div class="input-combo">
+            <label for="phone">Phone</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder=" your phone number"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="input-combo">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder=" **********"
+              minlength="8"
+              required
+            />
+          </div>
+          <div class="input-combo">
+            <label for="password-confirm">Confirm Password</label>
+            <input
+              type="password"
+              name="password-confirm"
+              id="password-confirm"
+              placeholder=" **********"
+              minlength="8"
+              required
+            />
+          </div>
+        </div>
+        <div class="submit-section">
+          <button class="acct-btn">Create Account</button>
+          <div class="subtext">
+            <p class="have-acct">Already have an account?</p>
+            <a href="#"><strong class="login">Log in</strong></a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
